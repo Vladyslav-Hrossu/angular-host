@@ -1,0 +1,9 @@
+{
+	"mfe-feature": {
+		"remoteEntry": "http://localhost:4201/remoteEntry.js",
+		"exposedModule": "./Module",
+		"displayName": "Feature",
+		"routePath": "",
+		"ngModuleName": "FeatureModule"
+	}
+}

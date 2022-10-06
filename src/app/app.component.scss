@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  gap: 1rem;
+  background-color: lightgray;
+  padding: 1rem;
+  font-family: "arial", serif;
+
+  &-item {
+    color: yellow;
+    cursor: pointer;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}

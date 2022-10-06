@@ -1,0 +1,8 @@
+<div class="list__container">
+    <div *ngFor="let patient of patients$ | async as patients" class="list__item">
+        <div class="list__item-data"><div>{{patient.name}}</div> <div>{{patient.surname}}</div> <div>{{patient.appointmentDate}}</div></div>
+        <div>
+            <button (click)="removeAppointment(patient)">Delete</button>
+        </div>
+    </div>
+</div>
